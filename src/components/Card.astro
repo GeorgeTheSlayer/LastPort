@@ -1,0 +1,27 @@
+---
+const { title } = Astro.props;
+const { subTitle } = Astro.props;
+const { desc } = Astro.props;
+const { date } = Astro.props;
+const { link } = Astro.props;
+const { imgLink } = Astro.props;
+const { imgAlt } = Astro.props;
+---
+
+<a class="flex w-full items-center" href={link}>
+  <div class="w-1/2">
+    <img alt={imgAlt} src={imgLink} />
+  </div>
+  <div class="flex w-1/2 items-center">
+    <div class="w-fit -rotate-90 pr-2">
+      <p class="whitespace-nowrap font-extralight tracking-wider text-gray-500">
+        {date}
+      </p>
+    </div>
+    <div class="w-1/2 border-l-4 border-black pl-4">
+      <h1 class="text-4xl font-bold">{title}</h1>
+      <h2 class="text-4xl font-light text-gray-500">{subTitle}</h2>
+      <p class="text-xl">{desc}</p>
+    </div>
+  </div>
+</a>

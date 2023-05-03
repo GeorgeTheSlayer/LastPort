@@ -1,15 +1,76 @@
 ---
+import Nav from "../components/Nav.astro";
+import Card from "../components/Card.astro";
+const allPosts = await Astro.glob("./posts/*.md");
+console.log(allPosts);
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Holland Sersen</title>
+  </head>
+  <body class="w-max-screen h-screen w-screen font-sans">
+    <Nav />
+    <div class="ml-36 flex items-center justify-center align-middle">
+      <div class="w-2/3 p-12">
+        <h1 class="text-4xl font-bold">Hello, I'm Holland.</h1>
+        <h2 class="mt-1 text-4xl font-light text-gray-500">Audio Programmer</h2>
+        <p class="mt-2 text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi
+          ipsum faucibus vitae aliquet nec ullamcorper sit amet. Ultricies
+          tristique nulla aliquet enim tortor at auctor. Tellus cras adipiscing
+          enim eu. Rutrum tellus pellentesque eu tincidunt tortor. Massa tempor
+          nec feugiat nisl pretium fusce.
+        </p>
+        <button class="mt-4 border-4 border-black bg-black p-2 text-white">
+          <a href="/" class="flex gap-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-mail"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
+              >
+              </path>
+              <path d="M3 7l9 6l9 -6"></path>
+            </svg>Contact
+          </a>
+        </button>
+      </div>
+      <div class="ml-12 w-full">
+        <img class="w-3/4" alt="Holland Sersen" src="/me2.jpeg" />
+      </div>
+    </div>
+    <div class="w-max-screen ml-36 mt-8 w-full">
+      {
+        allPosts.map((post) => (
+          <div class="mt-8">
+            <Card
+              title={post.frontmatter.title}
+              subTitle={post.frontmatter.subTitle}
+              desc={post.frontmatter.desc}
+              date={post.frontmatter.date}
+              link={post.url}
+              imgLink={post.frontmatter.image.url}
+              imgAlt={post.frontmatter.image.alt}
+            />
+          </div>
+        ))
+      }
+    </div>
+  </body>
 </html>
