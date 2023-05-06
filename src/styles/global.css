@@ -1,0 +1,25 @@
+/* The integration's default injected base.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold;
+  }
+  h2 {
+    @apply text-4xl font-light text-gray-500;
+  }
+  h3 {
+    @apply text-2xl text-gray-500;
+  }
+  p {
+    @apply text-xl;
+  }
+  .blog a {
+    @apply text-blue-500 hover:opacity-50;
+  }
+  .blog h1 {
+    @apply mt-4;
+  }
+}
