@@ -1,5 +1,5 @@
 ---
-import Nav from "../components/Nav.astro";
+import Nav from "../components/Nav.svelte";
 import Card from "../components/Card.astro";
 const allPosts = await Astro.glob("./posts/*.md");
 import "../styles/global.css";
@@ -14,7 +14,7 @@ import "../styles/global.css";
     <title>Holland Sersen</title>
   </head>
   <body class="w-max-screen overflow-x-hidden font-sans">
-    <Nav />
+    <Nav client:load />
     <div class="ml-36 flex items-center justify-center align-middle">
       <div class="w-2/3 p-12">
         <h1 class="">Hello, I'm Holland.</h1>

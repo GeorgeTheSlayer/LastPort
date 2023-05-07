@@ -1,5 +1,5 @@
 ---
-import Nav from "../components/Nav.astro";
+import Nav from "../components/Nav.svelte";
 import "../styles/global.css";
 const { frontmatter } = Astro.props;
 ---
@@ -13,20 +13,20 @@ const { frontmatter } = Astro.props;
     <title>{"Holland Sersen | " + frontmatter.title}</title>
   </head>
   <body class="flex w-screen flex-col align-middle">
-    <Nav />
-    <div class="blog w-2/3 items-center p-12 align-middle">
-      <div class="flex w-full items-center justify-center">
-        <img
-          src={frontmatter.image.url}
-          alt={frontmatter.image.alt}
-          class="w-1/2 items-center"
-        />
-        <div class="h-fit p-4">
+    <Nav client:load />
+    <div class="ml-auto mr-auto max-w-4xl items-center p-4 align-middle">
+      <div class="w-full">
+        <div class="h-fit px-4 pt-4">
           <h1>{frontmatter.title}</h1>
           <h3>{"By " + frontmatter.author}</h3>
         </div>
+        <img
+          src={frontmatter.image.url}
+          alt={frontmatter.image.alt}
+          class="p-4"
+        />
       </div>
-      <div class="mt-8">
+      <div class="blog p-4">
         <slot />
       </div>
     </div>

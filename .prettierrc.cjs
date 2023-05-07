@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    "prettier-plugin-svelte",
     require.resolve("prettier-plugin-astro"),
     "prettier-plugin-tailwindcss",
   ],
