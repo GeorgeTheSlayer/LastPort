@@ -20,7 +20,7 @@
     @apply text-red-500 hover:opacity-50;
   }
   .blog h1 {
-    @apply mt-8;
+    @apply text-xl lg:text-2xl;
   }
   .blog h2 {
     @apply mt-8;
@@ -28,8 +28,29 @@
   .blog h3 {
     @apply mt-4;
   }
+  .blog p + h1 {
+    @apply mt-8;
+  }
+  .blog h1 + p {
+    @apply mt-2;
+  }
+  .blog p + p {
+    @apply mt-6;
+  }
+  .blog blockquote + p {
+    @apply mt-8;
+  }
+
+  .blog blockquote + h1 {
+    @apply mt-8;
+  }
+
   .blog p {
-    @apply mt-4;
+    @apply leading-loose;
+  }
+
+  .blog blockquote {
+    @apply mt-8 border-l-4 border-red-500 pl-4 text-3xl italic;
   }
   .blog ul {
     @apply mt-4 text-xl;
