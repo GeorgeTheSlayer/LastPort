@@ -55,4 +55,8 @@
   .blog ul {
     @apply mt-4 text-xl;
   }
+
+  .blog table {
+    @apply mt-8 w-full text-xl;
+  }
 }

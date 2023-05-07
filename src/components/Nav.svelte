@@ -20,7 +20,7 @@
     </ul>
     <button
       on:click={() => (isClicked = !isClicked)}
-      class="ml-auto block md:hidden"
+      class="ml-auto mr-4 block md:hidden"
     >
       {#if isClicked}
         <svg

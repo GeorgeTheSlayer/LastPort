@@ -47,7 +47,7 @@ Micro problems are the nitty gritty issues. Things like, how I will align this b
 
 With that definition I can finally define my method for this project.
 
-> *Give me six hours to chop down a tree and I will spend the first four hours sharpening my ax.* - Abraham Lincoln. 
+> *"Give me six hours to chop down a tree and I will spend the first four hours sharpening my ax."* - Abraham Lincoln. 
 
 Yes, my method is this quote in its entirety. Before I tried to implement any major change I always did research and thought through different solutions before implementing them.
 
@@ -56,6 +56,7 @@ Yes, my method is this quote in its entirety. Before I tried to implement any ma
  I used this method on almost every piece of my project; from where to host the code, to the database structure, and to the UI. 
 
 Once I got the research down, it's time to cut down the tree itself. This is when all of my programming knowledge really comes in. When you have a well thought out plan, programming feels like a perfect zen moment, where everything falls into place. The more you learn, the more you understand your plan and its potential pitfalls, the faster things get done.
+
 > Many of the program's core features I was able to code in a sitting. However, the process leading up to it many times were days in the making. 
 
 
@@ -83,8 +84,11 @@ With this project I created a fully working prototype of this concept. There are
 Thank you to everyone who helped me with this project. 
 
 
-# Tech Stack.
-- Frontend: [SvelteKit](https://kit.svelte.dev/) + [TailwindCSS](https://tailwindcss.com/) + [Max RNBO](https://rnbo.cycling74.com/) + [TypeScript](https://www.typescriptlang.org/) + [Web Audio](https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-onstatechange)
-- Backend: [TRPC](https://trpc.io/) + [SvelteKit Rest API](https://kit.svelte.dev/docs/routing) + [Lucia Auth](https://lucia-auth.com/) + [Prisma ORM](https://www.google.com/search?q=prisma+orm&sourceid=chrome&ie=UTF-8)
-- Database: [PostgreSQL](https://www.postgresql.org/) hosted on [Railway](https://railway.app/) 
-- Webhosting: [Vercel](https://vercel.com/dashboard) + [Github](https://github.com/) 
+
+| Frontend | Backend   | Webhosting |
+|:--|:--|:--|
+|[SvelteKit](https://kit.svelte.dev/)   |[TRPC](https://trpc.io/)   |[Vercel](https://vercel.com/dashboard)  |  
+|[TailwindCSS](https://tailwindcss.com/)   |[Rest API](https://kit.svelte.dev/docs/routing)  |[Railway](https://railway.app/)    |  
+|[Max RNBO](https://rnbo.cycling74.com/)   |[Prisma ORM](https://www.google.com/search?q=prisma+orm&sourceid=chrome&ie=UTF-8)  |[Github](https://github.com/)  |  
+|[TypeScript](https://www.typescriptlang.org/)  |[PostgreSQL](https://www.postgresql.org/)   |  |  
+|[Web Audio](https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-onstatechange)  |  |  
