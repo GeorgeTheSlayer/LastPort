@@ -13,9 +13,9 @@ date: "1/23"
 
 _[RadioKnife](https://radioknife.co) is a website that would allow users to create and share musical instruments without needing a complex computer environment. As it stands, there are many pieces of software that allow for people to make musical instruments. Many of them lack in a couple of aspects:_
 
-1. Sharing Instruments
+<!-- 1. Sharing Instruments
 2. Accessibility
-3. Community
+3. Community -->
 
 # Sharing Instruments:
 
@@ -68,8 +68,8 @@ Once I got the research down, it's time to cut down the tree itself. This is whe
 
 Through my countless hours of research, I came to many findings and conclusions on the state of audio in the web like;
 
-1. UI/UX Design in Audio.
-2. Self Hosting vs Managed Hosting.
+<!-- 1. UI/UX Design in Audio.
+2. Self Hosting vs Managed Hosting. -->
 
 # UI/UX Design in Audio.
 
