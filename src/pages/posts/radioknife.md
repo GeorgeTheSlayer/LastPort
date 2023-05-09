@@ -102,3 +102,5 @@ Thank you to everyone who helped me with this project.
 | [Max RNBO](https://rnbo.cycling74.com/)                                                   | [Prisma ORM](https://www.google.com/search?q=prisma+orm&sourceid=chrome&ie=UTF-8) | [Github](https://github.com/)          |
 | [TypeScript](https://www.typescriptlang.org/)                                             | [PostgreSQL](https://www.postgresql.org/)                                         |                                        |
 | [Web Audio](https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-onstatechange) |                                                                                   |
+
+[![Youtube Video Showing Functionality ](https://img.youtube.com/vi/GRecsv-wqqY/0.jpg)](https://www.youtube.com/watch?v=GRecsv-wqqY)
