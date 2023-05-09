@@ -83,6 +83,8 @@ Many of the websites that I found that had the same functionality as mine felt v
 
 # Self Hosting vs Managed Hosting.
 
+![Final db Tables](/db.png)
+
 The first problem I had encountered was how I would host the website, (aka how can I keep it online and open to the public). In my first attempt at making the website I tried self hosting the entire site, mostly because I thought I would be able to save money and be able to configure the service to my heart's content. The problem was that I ended up spending more time trying to keep the site online rather than actually developing the project.
 
 > I quickly realized, yes I could save some money by doing this, but in return I'm going to lose a lot of time.
