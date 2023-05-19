@@ -5,7 +5,7 @@
 
 @layer base {
   h1 {
-    @apply text-3xl font-bold lg:text-4xl;
+    @apply text-3xl font-bold dark:text-white lg:text-4xl;
   }
   h2 {
     @apply text-3xl font-light text-gray-500 lg:text-4xl;
@@ -14,7 +14,7 @@
     @apply text-xl text-gray-500 lg:text-2xl;
   }
   p {
-    @apply text-lg lg:text-xl;
+    @apply text-lg dark:text-white lg:text-xl;
   }
   .blog a {
     @apply text-red-500 hover:opacity-50;

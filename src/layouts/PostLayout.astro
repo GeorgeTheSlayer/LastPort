@@ -11,9 +11,20 @@ const { frontmatter } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{"Holland Sersen | " + frontmatter.title}</title>
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
   </head>
-  <body class="flex w-screen flex-col align-middle">
-    <Nav client:load />
+  <body class="flex w-screen flex-col align-middle dark:bg-black">
+    <Nav client:only />
     <div class="ml-auto mr-auto max-w-4xl items-center p-4 align-middle">
       <div class="w-full">
         <div class="h-fit px-4 pt-4">
