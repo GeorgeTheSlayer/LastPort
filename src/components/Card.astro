@@ -6,11 +6,12 @@ const { date } = Astro.props;
 const { link } = Astro.props;
 const { imgLink } = Astro.props;
 const { imgAlt } = Astro.props;
+import * as dayjs from "dayjs";
+//const dateFormat = dayjs(date).toString();
 const text = date + " " + title;
 ---
 
 <a class="mx-2 my-1 p-0" href={link}>
   <img class="rounded-xl" alt={imgAlt} src={imgLink} />
-
   <p>{text}</p>
 </a>
