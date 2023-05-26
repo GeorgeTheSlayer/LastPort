@@ -8,7 +8,7 @@ image:
   alt: "RadioHand Example Look"
 author: "Holland Sersen"
 desc: "A minimal Full-Stack application that demonstrates how AI can be used with music."
-date: "12/23"
+date: "2023-01-01"
 ---
 
 ## Abstract

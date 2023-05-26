@@ -8,7 +8,7 @@ image:
   alt: "This is a test"
 author: "Holland Sersen"
 desc: "A FullStack Application that allows users to create and play musical instruments all from the browser."
-date: "1/23"
+		date: "2023-01-02"
 ---
 
 _[RadioKnife](https://radioknife.co) is a website that would allow users to create and share musical instruments without needing a complex computer environment. As it stands, there are many pieces of software that allow for people to make musical instruments. Many of them lack in a couple of aspects:_
