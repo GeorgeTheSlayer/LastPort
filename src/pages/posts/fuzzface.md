@@ -12,3 +12,5 @@ date: "2021-01-01"
 ---
 
 This is a guitar pedal I made myself. More info Coming Soon!
+
+## I am available to work. Please contact at holland@sersen.net 

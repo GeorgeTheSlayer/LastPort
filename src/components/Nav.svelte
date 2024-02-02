@@ -37,7 +37,9 @@
       <li class=""><Mode bind:isDark={isMode} /></li>
       <li class="hover:text-red-500"><a href="/">Blog</a></li>
       <li class="hover:text-red-500"><a href="/">About</a></li>
-      <li class="hover:text-red-500"><a href="/">Contact</a></li>
+      <li class="hover:text-red-500">
+        <a href="mailto:holland@sersen.net">Contact</a>
+      </li>
     </ul>
     <div class="ml-auto flex gap-2 md:hidden">
       <Mode bind:isDark={isMode} />

@@ -106,3 +106,5 @@ Thank you to everyone who helped me with this project.
 | [Web Audio](https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-onstatechange) |                                                                                   |
 
 [![Youtube Video Showing Functionality ](https://img.youtube.com/vi/GRecsv-wqqY/0.jpg)](https://www.youtube.com/watch?v=GRecsv-wqqY)
+
+## I am available to work. Please contact at holland@sersen.net 

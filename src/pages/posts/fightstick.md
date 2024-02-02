@@ -1,16 +1,18 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Deltronics"
+title: "Mojobox Fightstick"
 subTitle: "AI + NPM"
 tags: ["Fullstack", "Audio"]
 image:
-  url: "/dell.JPG"
-  alt: "A Messy Shelf at Deltronics Chicago"
+  url: "/fightstick.jpg"
+  alt: "My Fight stick I 3d printed"
 author: "Holland Sersen"
 desc: "My Experience working audio repair and what I learned"
-date: "2022-05-01"
+date: "2023-09-01"
 ---
 
-I really liked working here! More photos and Details coming soon!
+# Description
+
+A simple fightstick I made to play Street Fighter 6. I 3d printed the entire enclosure, sourced parts, and assembled it by hand.
 
 ## I am available to work. Please contact at holland@sersen.net 

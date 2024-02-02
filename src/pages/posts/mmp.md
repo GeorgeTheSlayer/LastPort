@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "MMP"
+title: "Micro Modular Project"
 subTitle: "Hardware Design + Programming"
 tags: ["Fullstack", "Audio"]
 image:
@@ -11,6 +11,10 @@ desc: "A musical instrument made to introduce users to making music with technol
 date: "2022-10-01"
 ---
 
-Created an embedded system and developed it using rapid prototyping.
-Designed a synthesizer meant for users who have never played an instrument
-Created custom PCBs and enclosures while multitasking other projects and finishing within the given deadline.
+## Description
+
+- Created an embedded system using C++, CAD software, soldering, breadboarding, and 3D printing within one year.
+- Used a STM32H750 microcontroller to create a fast, real-time audio synthesizer with multiple modes and algorithms.
+- Created a RTOS that handled a button matrix, potentiometers, and pogo pins to ensure uninterrupted interaction.
+
+## I am available to work. Please contact at holland@sersen.net 
